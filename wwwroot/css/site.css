@@ -1,0 +1,11 @@
+/*Navbar*/
+
+.navClass {
+    background-color: #42344B;
+    color: white !important;
+    padding: 10px;
+}
+
+.navClass .nav-link {
+    cursor: pointer;
+}
