@@ -17,7 +17,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navClass navbar-expand-lg" >
+        <nav class="navbar navClass navbar-expand-lg fixed-top" >
             <div class="container-fluid">
                 <div class="collapse navbar-collapse d-flex justify-content-between align-items-center" id="navbarNav">
                     <ul class="navbar-nav d-flex justify-content-around align-items-center w-100">
@@ -33,7 +33,7 @@
                             <a class="nav-link" asp-controller="Home" asp-action="ChatRoomPage" style="color: #fff;">Chat</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#" style="color: #fff;">Login</a>
+                            <a class="nav-link" asp-controller="Auth" asp-action="LoginPage" style="color: #fff;">Login</a>
                         </li>
                     </ul>
                 </div>
@@ -50,7 +50,7 @@
         </main>
     </div>
 
-    <footer class="navClass">
+    <footer class="navClass fixed-bottom">
         <div class="row mx-3" style="">           
             <div class="d-flex flex-column flex-sm-row justify-content-between">
                 <p>
