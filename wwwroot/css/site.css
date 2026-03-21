@@ -159,3 +159,34 @@
     color: #4287f5;
     font-weight: bold;
 }
+
+/*FORUM PAGE*/
+
+
+.forumMain {
+    min-height: calc(80vh - 140px);
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    margin-bottom: 60px;
+    color: white;
+    margin: auto;
+    text-align: center;
+    background-color: #282727;
+}
+
+.body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.screenshot-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}

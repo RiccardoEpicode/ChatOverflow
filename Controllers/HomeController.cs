@@ -13,5 +13,10 @@ namespace ChatOverflow.Controllers
         {
             return View();
         }
+
+        public IActionResult ForumPage()
+        {
+            return View();
+        }
     }
 }
