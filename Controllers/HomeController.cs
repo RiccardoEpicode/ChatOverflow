@@ -8,5 +8,10 @@ namespace ChatOverflow.Controllers
         {
             return View();
         }
+
+        public IActionResult ChatRoomPage()
+        {
+            return View();
+        }
     }
 }
